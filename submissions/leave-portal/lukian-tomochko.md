@@ -32,8 +32,8 @@
 - Архітектурне правило, крім `check:design` (D): job «Секретний ключ лише на сервері» (`check:boundary`) у `architecture.yml`; доказ, що ловить порушення, — вивід «5 порушень» в описі https://github.com/lukian-tomochko/leave-portal/pull/16
 - Акаунти для PM (E): pm-employee@example.test (employee), pm-manager@example.test (manager), pm-admin@example.test (admin). Паролі — PM у чаті
 - Скріни за ролями (E): —
-- AC зрізу 2 (E): як у `docs/conformance.md` на SHA: AC-DECIDE-01…24 і AC-BALANCE-01…22 — усі «реалізовано» (67 з 67 за `npm run ac:coverage`)
-- Відхилення від PM (E): не надходило (на 27.10 у репо немає issues «Відхилення від вимог»; перевірити перед здачею)
+- AC зрізу 2 (E): як у `docs/conformance.md` на SHA, усі «реалізовано»: AC-DECIDE-01, AC-DECIDE-02, AC-DECIDE-03, AC-DECIDE-04, AC-DECIDE-05, AC-DECIDE-06, AC-DECIDE-07, AC-DECIDE-08, AC-DECIDE-09, AC-DECIDE-10, AC-DECIDE-11, AC-DECIDE-12, AC-DECIDE-13, AC-DECIDE-14, AC-DECIDE-15, AC-DECIDE-16, AC-DECIDE-17, AC-DECIDE-18, AC-DECIDE-19, AC-DECIDE-20, AC-DECIDE-21, AC-DECIDE-22, AC-DECIDE-23, AC-DECIDE-24, AC-BALANCE-01, AC-BALANCE-02, AC-BALANCE-03, AC-BALANCE-04, AC-BALANCE-05, AC-BALANCE-06, AC-BALANCE-07, AC-BALANCE-08, AC-BALANCE-09, AC-BALANCE-10, AC-BALANCE-11, AC-BALANCE-12, AC-BALANCE-13, AC-BALANCE-14, AC-BALANCE-15, AC-BALANCE-16, AC-BALANCE-17, AC-BALANCE-18, AC-BALANCE-19, AC-BALANCE-20, AC-BALANCE-21, AC-BALANCE-22 (46 AC зрізу 2 і вимоги 03; разом у матриці 67 AC, усі «реалізовано», `npm run ac:coverage` — OK)
+- Відхилення від PM (E): не надходило станом на 2026-10-27 (issues «Відхилення від вимог» у репо немає)
 
 ## Бонус
 
